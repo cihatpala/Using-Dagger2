@@ -5,13 +5,14 @@ import android.util.Log;
 import javax.inject.Inject;
 
 public class Car {
-    private static final String TAG = "Car";
+    private static final String TAG = "CAR";
 
-    @Inject Engine engine;
+    private Engine engine;
     private Wheels wheels;
 
     @Inject
-    public Car(Wheels wheels){
+    public Car(Engine engine,Wheels wheels){
+        this.engine = engine;
         this.wheels = wheels;
     }
 
@@ -21,6 +22,6 @@ public class Car {
     }
 
     public void drive(){
-        Log.d(TAG, "driving...");
+        Log.d(TAG, "driving... / Sürülüyor");
     }
 }

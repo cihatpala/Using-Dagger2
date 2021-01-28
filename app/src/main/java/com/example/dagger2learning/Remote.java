@@ -13,6 +13,6 @@ public class Remote {
     }
 
     public void setListener(Car car){
-        Log.d(TAG, "Remote connected");
+        Log.d(TAG, "Remote connected / Uzaktan bağlı");
     }
 }
