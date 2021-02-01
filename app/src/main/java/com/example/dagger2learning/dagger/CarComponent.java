@@ -5,7 +5,7 @@ import com.example.dagger2learning.car.Car;
 
 import dagger.Component;
 
-@Component (modules = {WheelsModule.class, DiesellEngineModule.class})
+@Component (modules = {WheelsModule.class, DieselEngineModule.class})
 public interface CarComponent {
     Car getCar();
     void inject(MainActivity mainActivity);
