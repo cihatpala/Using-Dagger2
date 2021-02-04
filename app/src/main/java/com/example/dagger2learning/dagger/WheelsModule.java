@@ -8,7 +8,7 @@ import dagger.Module;
 import dagger.Provides;
 
 @Module
-public class WheelsModule {
+public abstract class WheelsModule {
     //Bu sınıfa Wheels'in elemanlarına da erişebilmek için ihtiyaç vardır.
 
     @Provides
