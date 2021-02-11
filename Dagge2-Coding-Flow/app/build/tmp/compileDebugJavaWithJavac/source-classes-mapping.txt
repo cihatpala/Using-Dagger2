@@ -1,0 +1,29 @@
+com/example/dagger2learning/dagger/DieselEngineModule.java
+ com.example.dagger2learning.dagger.DieselEngineModule
+com/example/dagger2learning/car/PetrolEngine.java
+ com.example.dagger2learning.car.PetrolEngine
+com/example/dagger2learning/car/Remote.java
+ com.example.dagger2learning.car.Remote
+com/example/dagger2learning/MainActivity.java
+ com.example.dagger2learning.MainActivity
+com/example/dagger2learning/car/Wheels.java
+ com.example.dagger2learning.car.Wheels
+com/example/dagger2learning/car/Tires.java
+ com.example.dagger2learning.car.Tires
+com/example/dagger2learning/dagger/CarComponent.java
+ com.example.dagger2learning.dagger.CarComponent
+ com.example.dagger2learning.dagger.CarComponent$Builder
+com/example/dagger2learning/BuildConfig.java
+ com.example.dagger2learning.BuildConfig
+com/example/dagger2learning/car/DieselEngine.java
+ com.example.dagger2learning.car.DieselEngine
+com/example/dagger2learning/dagger/WheelsModule.java
+ com.example.dagger2learning.dagger.WheelsModule
+com/example/dagger2learning/car/Engine.java
+ com.example.dagger2learning.car.Engine
+com/example/dagger2learning/dagger/PetrolEngineModule.java
+ com.example.dagger2learning.dagger.PetrolEngineModule
+com/example/dagger2learning/car/Rims.java
+ com.example.dagger2learning.car.Rims
+com/example/dagger2learning/car/Car.java
+ com.example.dagger2learning.car.Car
