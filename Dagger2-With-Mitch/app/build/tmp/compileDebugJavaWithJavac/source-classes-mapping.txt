@@ -1,0 +1,4 @@
+com/example/dagger2withmitch/BuildConfig.java
+ com.example.dagger2withmitch.BuildConfig
+com/example/dagger2withmitch/MainActivity.java
+ com.example.dagger2withmitch.MainActivity
